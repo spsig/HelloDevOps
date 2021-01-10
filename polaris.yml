@@ -9,7 +9,7 @@ capture:
   coverity:
     buildless:
       sourceMode:
-        sourceDir: ${project.projectDir}
+        sourceDir: "/Users/runner/work/1/s"
   fileSystem:
     ears:
       extensions: [ear]
