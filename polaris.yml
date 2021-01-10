@@ -8,7 +8,7 @@ project:
 capture:
   build:
     buildCommands:
-    - shell: [msbuild, HelloDevOps.sln, '/p:Configuration=Release']
+    - shell: [msbuild, HelloDevOps.sln, '/p:Configuration=Debug', '/p:Platform=iPhoneSimulator']
   fileSystem:
     ears:
       extensions: [ear]
