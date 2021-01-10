@@ -6,9 +6,11 @@ project:
     name: ${scm.git.commit}
     date: ${scm.git.commit.date}
 capture:
-  build:
-    buildCommands:
-    - shell: [msbuild, HelloDevOps.sln, '/p:Configuration=Debug', '/p:Platform=iPhoneSimulator']
+  coverity:
+    buildless:
+      project:
+        languages:
+          - "cs"
   fileSystem:
     ears:
       extensions: [ear]
