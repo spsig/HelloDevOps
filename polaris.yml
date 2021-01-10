@@ -8,8 +8,9 @@ project:
 capture:
   coverity:
     buildless:
-      sourceMode:
-        sourceDir: "/Users/runner/work/1/s"
+      project:
+        languages:
+          - "cs"
   fileSystem:
     ears:
       extensions: [ear]
